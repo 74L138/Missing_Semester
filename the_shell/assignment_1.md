@@ -1,6 +1,5 @@
 The Assignment Page is in <https://missing.csail.mit.edu/2020/course-shell/>
 
-
 Answer:
 
 ```powershell

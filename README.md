@@ -1,22 +1,5 @@
----
-title: "Missing Semester (Under Construction)"
-format:
-  html:
-    code-fold: true
-    code-tools: true
-    code-block-bg: true
-    code-block-border-left: "#31BAE9"
-    theme: cosmo
-    execute:
-      freeze: auto
-    embed-resources: true
-    jupyterlite: true
-    echo: true
-    highlight-style: github
-    toc: true
-    toc-depth: 2
-jupyter: python3
----
+
+# Missing Semester (Under Construction)
 
 ## Lecture Homepage: [Missing Semester](https://missing.csail.mit.edu/)
 

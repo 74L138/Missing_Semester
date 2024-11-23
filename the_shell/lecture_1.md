@@ -1,24 +1,3 @@
----
-title: "The Shell"
-author: "Wu Hao"
-date: 2024/11/23
-date-format: "YYYY[/]M[/]D"
-format:
-  html:
-    code-fold: true
-    code-tools: true
-    code-block-bg: true
-    code-block-border-left: "#31BAE9"
-    execute: true
-    embed-resources: true
-    jupyterlite: true
-    echo: true
-    highlight-style: github
-    toc: true
-    toc-depth: 2
-jupyter: python3
----
-
 ## echo
 
 `echo string`: String/Variable output
