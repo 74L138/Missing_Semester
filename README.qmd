@@ -6,7 +6,9 @@ format:
     code-tools: true
     code-block-bg: true
     code-block-border-left: "#31BAE9"
-    execute: true
+    theme: cosmo
+    execute:
+      freeze: auto
     embed-resources: true
     jupyterlite: true
     echo: true
