@@ -19,7 +19,7 @@ format:
 jupyter: python3
 ---
 
-## echo {#echo}
+## echo
 
 `echo string`: String/Variable output
 ```powershell
@@ -32,8 +32,7 @@ $ echo it is a test
 it is a test
 ```
 
-## cd and pwd {#cd}
-
+## cd and pwd
 `pwd`: display the current directory<br>
 `cd .`: to the current directory<br>
 `cd ..`: to its parent directory<br>
@@ -59,7 +58,7 @@ $ cd ~
 hao@DESKTOP-EUJ3G2G MINGW64 ~
 ```
 
-## ls {#ls}
+## ls
 
 `ls`: display all the content in the current directory
 `ls -l`: display the details of content
@@ -79,7 +78,7 @@ drwxr-xr-x 1 hao 197609 0 11月 21 16:49 WEEK_REPORT/
 4. r-x refers to the group of the file's permissions
 5. r-x refers to anyone else's permissions
 
-## rmdir and mkdir {#dir}
+## rmdir and mkdir
 
 `rmdir dir_name` : Delete empty dirs<br>
 `mkdir dir_name`: Building a new directory
@@ -97,7 +96,7 @@ $ ls
 _site/  Missing_Semester/  posts/  WEEK_REPORT/
 ```
 
-## cat {#cat}
+## cat
 
 `cat file_name`and`cat file1 file2`: Displaying file contents<br>
 `cat file1 file2 > combined_file`: Redirecting files contents to other file<br>
@@ -123,11 +122,10 @@ hello
 hao
 ```
 
-## pipe character {#pipe}
+## pipe character
 
 `|`: Using the output of one command as input to another command<br>
 (Waiting for construction...)
 
-## touch {#touch}
-
+## touch
 `touch file_name`: Update the access and modification times of each FILE to the current time.
