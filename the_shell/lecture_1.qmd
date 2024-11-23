@@ -1,4 +1,25 @@
-## echo
+---
+title: "The Shell"
+author: "Wu Hao"
+date: 2024/11/23
+date-format: "YYYY[/]M[/]D"
+format:
+  html:
+    code-fold: true
+    code-tools: true
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    execute: true
+    embed-resources: true
+    jupyterlite: true
+    echo: true
+    highlight-style: github
+    toc: true
+    toc-depth: 2
+jupyter: python3
+---
+
+## echo {#echo}
 
 `echo string`: String/Variable output
 ```powershell
@@ -11,7 +32,8 @@ $ echo it is a test
 it is a test
 ```
 
-## cd and pwd
+## cd and pwd {#cd}
+
 `pwd`: display the current directory<br>
 `cd .`: to the current directory<br>
 `cd ..`: to its parent directory<br>
@@ -37,7 +59,7 @@ $ cd ~
 hao@DESKTOP-EUJ3G2G MINGW64 ~
 ```
 
-## ls
+## ls {#ls}
 
 `ls`: display all the content in the current directory
 `ls -l`: display the details of content
@@ -57,7 +79,7 @@ drwxr-xr-x 1 hao 197609 0 11月 21 16:49 WEEK_REPORT/
 4. r-x refers to the group of the file's permissions
 5. r-x refers to anyone else's permissions
 
-## rmdir and mkdir
+## rmdir and mkdir {#dir}
 
 `rmdir dir_name` : Delete empty dirs<br>
 `mkdir dir_name`: Building a new directory
@@ -75,7 +97,7 @@ $ ls
 _site/  Missing_Semester/  posts/  WEEK_REPORT/
 ```
 
-## cat
+## cat {#cat}
 
 `cat file_name`and`cat file1 file2`: Displaying file contents<br>
 `cat file1 file2 > combined_file`: Redirecting files contents to other file<br>
@@ -101,10 +123,11 @@ hello
 hao
 ```
 
-## pipe character
+## pipe character {#pipe}
 
 `|`: Using the output of one command as input to another command<br>
 (Waiting for construction...)
 
-## touch
+## touch {#touch}
+
 `touch file_name`: Update the access and modification times of each FILE to the current time.
